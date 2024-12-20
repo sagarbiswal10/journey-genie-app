@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TrainFront, Bus, Hotel } from 'lucide-react';
+import { TrainFront, Bus, Hotel, Calendar, Users } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import FlightSearchForm from './FlightSearchForm';
 import FlightResults from './FlightResults';

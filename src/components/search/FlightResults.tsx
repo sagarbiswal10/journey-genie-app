@@ -6,8 +6,8 @@ interface FlightResultsProps {
   flights: Flight[];
 }
 
-const FlightResults = ({ flights }: FlightResultsProps) => {
-  if (flights.length === 0) {
+const FlightResults = ({ flights = [] }: FlightResultsProps) => {
+  if (!flights || flights.length === 0) {
     return (
       <div className="text-center py-8">
         <p className="text-gray-500">No flights found matching your criteria.</p>
